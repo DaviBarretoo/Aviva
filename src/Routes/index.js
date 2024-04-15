@@ -9,9 +9,9 @@ import Principal from '../Pages/Principal';
 export default function Routes() {
   return (
     <Switch>
-      <Route exact path="/mateus" component={Mateus} />
-      <Route exact path="/Salmos" component={Salmos} />
-      <Route exact path="/proverbios" component={Proverbios} />
+      <Route exact path="/Aviva/mateus" component={Mateus} />
+      <Route exact path="/Aviva/Salmos" component={Salmos} />
+      <Route exact path="/Aviva/proverbios" component={Proverbios} />
       <Route exact path="/Aviva/" component={Principal} />
     </Switch>
   );
