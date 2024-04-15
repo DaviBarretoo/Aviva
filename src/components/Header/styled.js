@@ -10,12 +10,14 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 position: fixed;
-border-bottom-left-radius: 100rem;
-border-bottom-right-radius: 100rem;
+
 box-shadow:  0 0 100px rgba(0, 0, 100 ,0.4);
 
 a{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "Jersey 25", sans-serif;
+  font-size:1.3rem;
+  font-weight: 400;
+  font-style: normal;
   color: ${blue};
   text-decoration:none;
   transition: 700ms;
@@ -23,6 +25,7 @@ a{
 
 a:hover{
   color: ${lightblue};
+  font-size:1.5rem;
 
 }
 `;
