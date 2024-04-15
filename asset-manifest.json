@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/Aviva/static/js/main.61093f8a.js",
+    "main.js": "/Aviva/static/js/main.bb63da43.js",
     "static/media/backgroundprincipal.svg": "/Aviva/static/media/backgroundprincipal.fe0058cb84140e34f8e8612f40cb3367.svg",
     "index.html": "/Aviva/index.html",
-    "main.61093f8a.js.map": "/Aviva/static/js/main.61093f8a.js.map"
+    "main.bb63da43.js.map": "/Aviva/static/js/main.bb63da43.js.map"
   },
   "entrypoints": [
-    "static/js/main.61093f8a.js"
+    "static/js/main.bb63da43.js"
   ]
 }
