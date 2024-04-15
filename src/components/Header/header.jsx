@@ -6,8 +6,8 @@ export default function Header() {
   return (
     <Nav>
       <Link to="/mateus"> Mateus 09</Link>
-      <Link to="/"> Salmos 121</Link>
-      <Link to="/"> Provérbios 16</Link>
+      <Link to="/salmos"> Salmos 121</Link>
+      <Link to="/proverbios"> Provérbios 16</Link>
     </Nav>
   );
 }
