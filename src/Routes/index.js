@@ -13,6 +13,7 @@ export default function Routes() {
       <Route exact path="/Aviva/Salmos" component={Salmos} />
       <Route exact path="/Aviva/proverbios" component={Proverbios} />
       <Route exact path="/Aviva/" component={Principal} />
+      <Route exact path="*" component={Principal} />
     </Switch>
   );
 }
