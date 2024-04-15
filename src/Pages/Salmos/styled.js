@@ -8,21 +8,32 @@ flex-direction: column;
 align-items: center;
 margin: 0 auto;
 gap: 1rem;
-width: 540px;
+width: 50%;
+word-wrap: break-all;
 
 p{
   color: white ;
   font-size:1rem;
 font-family:sans-serif;
 font-weight:700;
+transition: 1200ms;
 
 }
 
+
 h1{
   color: ${lightblue} ;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "Jersey 25", sans-serif;
  margin-bottom:0.4rem;
  margin-top:0.4rem;
+}
+
+h1:hover{
+  color: ${blue} ;
+  font-family: "Jersey 25", sans-serif;
+ margin-bottom:0.4rem;
+ margin-top:0.4rem;
+
 }
 
 h2{
