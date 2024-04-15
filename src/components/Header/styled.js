@@ -5,6 +5,7 @@ export const Nav = styled.nav`
 
 background: ${colorOfHeader};
 width: 100%;
+margin: 0 auto;
 height: 3rem;
 display: flex;
 justify-content: space-evenly;

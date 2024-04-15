@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { blue, lightblue } from '../../config/color';
+import { blue } from '../../config/color';
 import background from '../../img/backgroundprincipal.svg';
 
 export const Container = styled.nav`
@@ -25,11 +25,10 @@ h1{
 }
 
 h1:hover{
-left: 5rem;
-color: ${lightblue} ;
-font-size:7rem;
-font-family:sans-serif;
-font-weight:700;
-
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: ${blue} ;
+  font-size:9rem;
 }
 `;
