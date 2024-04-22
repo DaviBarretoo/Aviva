@@ -1,7 +1,10 @@
 import React from 'react';
 import { Container } from './styled';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Salmos() {
+  toast.info('Você agora esta em Salmos 121');
   return (
     <Container>
       <h2>Salmos 121</h2>

@@ -1,10 +1,13 @@
 import React from 'react';
 import { Container } from './styled';
-
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 export default function Mateus() {
+  toast.info('Você agora esta em Mateus 09');
   return (
     <Container>
       <h2>Mateus 09</h2>
+
       <p>
         <p>
           <h1>1</h1> E, entrando no barco, passou para o outro lado, e chegou à

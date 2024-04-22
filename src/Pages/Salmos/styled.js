@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import { darkcolor, lightblue, blue } from '../../config/color';
+import { lightblue, blue } from '../../config/color';
 
 export const Container = styled.nav`
-background:${darkcolor};
+
 display: flex;
 flex-direction: column;
 align-items: center;
