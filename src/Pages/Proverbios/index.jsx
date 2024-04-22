@@ -1,10 +1,13 @@
 import React from 'react';
 import { Container } from './styled';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Salmos() {
+  toast.info('Você agora esta em Provérbios 16');
   return (
     <Container>
-      <h2>Provérbios</h2>
+      <h2>Provérbios 16 </h2>
       <p>
         <p>
           <h1>1</h1> Ao ser humano foi concedida a capacidade de planejar,
