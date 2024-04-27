@@ -1,9 +1,9 @@
-import React from 'react';
+
 import { Container } from './styled';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-export default function Salmos() {
+export default function Proverbios() {
   toast.info('Você agora esta em Provérbios 16');
   return (
     <Container>
