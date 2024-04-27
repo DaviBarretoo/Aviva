@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { blue } from '../../config/color';
-import background from '../../img/backgroundprincipal.svg';
+import { blue } from '../../components/config/color';
+import background from '../../components/img/backgroundprincipal.svg';
 
 export const Container = styled.nav`
 

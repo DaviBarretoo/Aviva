@@ -1,7 +1,8 @@
 import styled from 'styled-components';
-import { lightblue, blue } from '../../config/color';
+import { lightblue, blue } from '../../components/config/color';
 
 export const Container = styled.nav`
+
 display: flex;
 flex-direction: column;
 align-items: center;

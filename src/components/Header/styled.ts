@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colorOfHeader, blue, lightblue } from '../../config/color';
+import { colorOfHeader, blue, lightblue } from '../config/color';
 
 export const Nav = styled.nav`
 
