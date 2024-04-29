@@ -174,7 +174,7 @@ body{
 
 background-size: cover;
 background-position: center center;
-background-image:url(${cv});
+background:url(${cv});
 background-attachment: fixed;
 }
 html,body, #root{
