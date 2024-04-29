@@ -13,7 +13,6 @@ body{
 background-size: cover;
 background-position: center center;
 background-image:url(${back1});
-background-color: red;
 background-attachment: fixed;
 }
 html,body, #root{
