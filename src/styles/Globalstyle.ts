@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 //import { darkcolor } from '../config/color';
-import back1 from '../img/back1.svg'
+//import back1 from '../img/back1.svg'
 export default createGlobalStyle`
 *{
 margin: 0;
@@ -12,7 +12,7 @@ body{
 
 background-size: cover;
 background-position: center center;
-background:url(${back1});
+background: rgb(2,0,36);
 background-attachment: fixed;
 }
 html,body, #root{

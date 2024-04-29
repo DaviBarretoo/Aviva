@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { blue } from '../../components/config/color';
-import backgroundprincipal from '../../img/backgroundprincipal.svg';
+//import backgroundprincipal from '../../img/backgroundprincipal.svg';
 
 export const Container = styled.nav`
 display: flex;
@@ -11,7 +11,7 @@ height: 100%;
 background-size: cover;
     background-position: center center;
 justify-content: center;
-background-image:url(${backgroundprincipal});
+background: rgb(2,0,36);
 
 h1{
   font-family: "Jersey 25", sans-serif;
