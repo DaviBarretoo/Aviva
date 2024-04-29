@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <Header/>
     <Globalstyle />
     <Routes>
-    
+    <Route path='/' element={<Principal />}/>
     <Route path='/Aviva' element={<Principal />}/>
     <Route path='/Aviva/Mateus' element={<Mateus />}/>
     <Route path='/Aviva/Salmos' element={<Salmos />}/>
